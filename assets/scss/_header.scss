@@ -1,0 +1,29 @@
+.header-container{
+    background-color: #1E1E23;
+    color: #D8D8D8;
+    .header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        .header-left-content{
+            display: flex;
+            align-items: center;
+            .logo-container{
+                margin-right: 15px;
+                img{
+                    height: 35px;
+                    width: 35px;
+                }
+            }
+        }
+        
+        .header-menu{
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }
+    }
+}

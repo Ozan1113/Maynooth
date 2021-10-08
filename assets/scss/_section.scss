@@ -1,0 +1,204 @@
+.showcase-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .slide-images{
+        position: relative;
+        width: 100%;
+        .slide-text{
+            position: absolute;
+            font-family: 'Playfair Display', Regular;
+            top: 76px;
+            left: 573px;
+            font-size: 32px;
+            font-weight: 400;
+        }
+        img{
+            max-width: 100%;
+            width: 1366px;
+            height: 647px;
+        }
+        .slide-btn{
+            position: absolute;
+            padding: 120px 19px;
+            top: calc(50% - 120px);
+            background-color: #676666;
+        }
+        #next-btn{
+            right: 0;
+        }
+        #prev-btn{
+            left: 0;
+        }
+        i{
+            color: #fff;
+        }
+        .slide-btm-buttons{
+            position: absolute;
+            top: 621px;
+            left: 639px;
+            li{
+                &:nth-child(1){
+                    margin: 0;
+                }
+                margin-left: 7px;
+            }
+        }
+    }
+}
+.description{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 38px 0 76px 0;
+        h1{
+            font-size: 40px;
+            font-weight: 400;
+            margin-bottom: 9px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+.bigImg-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 79px 0 49px 0;
+    background-image: url("../images/bigImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 782px;
+    width: 100%;
+}
+
+.double-img-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 41px;
+    .img-container{
+        padding: 0 15px;
+        max-width: 50%;
+        flex: 50%;
+        .right-img1{
+        background-image: url("../images/right-img.jpeg");
+        }
+        .left-img1{
+            background-image: url("../images/left-img.jpg");
+        }
+    }
+    .img-container2{
+        flex: 30%;
+        width: 30%;
+        padding: 0 15px;
+        .left-img2{
+            background-image: url("../images/left-img2.jpg");
+        }
+    }
+    .img-container3{
+        padding: 0 15px;
+        flex: 70%;
+        width: 70%;
+        .right-img2{
+            background-image: url("../images/right-img2.jpg");
+        }
+    }
+    
+}
+.img-wrapper{
+    padding: 27px 0 0 43px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 456px;
+    max-height: 456px;
+}
+
+.triple-img-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 41px;
+    .img-container-4{
+        flex: 30%;
+        width: 30%;
+        padding: 0 15px;
+        .img-wrapper2{
+            img{
+                height: 328px;
+                width: 440px;
+            }
+        }
+        .idea{
+            margin: 13px 0 41px 0;
+            p{
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.product-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    .product-box{
+        display: flex;
+        padding: 0 10px;
+        margin-bottom: 82px;
+        flex: 25%;
+        width: 25%;
+        .product-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            .img-container-5{
+                .img-wrapper3{
+                    height: 100%;
+                    img{
+                        border: 1px solid #676666;
+                        height: 287px;
+                        width: 310px;
+                    }
+                }
+            }
+            .content-container{
+                .straight-line{
+                    margin: 21px 0;
+                    width: 310px;
+                }
+                .content-wrapper{
+                    margin-top: 9px;
+                    .text-content2{
+                        margin-bottom: 9px;
+                    }
+                    .price{
+                        color: #BC0000;
+                    }
+                    .content-btn-container{
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        .btn-container{
+                            margin: 10px 10px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+        .straight-line-vertical{
+            background-color: #BFBEBE;
+            width: 2px;
+            height: 460px;
+            border-radius: 2px;
+        }
+    }
+}
